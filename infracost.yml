@@ -1,0 +1,6 @@
+version: 0.1
+projects:
+  - name: multi-provider-infra
+    path: .
+    terraform_plan_flags:
+      - -out=tfplan.binary
